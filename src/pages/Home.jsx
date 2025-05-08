@@ -47,7 +47,7 @@ const Home = () => {
 
   const handleDeleteBook = async (bookId) => {
     try {
-      await axios.delete(`https://book-store-mern-4.onrender.com/books/${bookId}`, {
+      await axios.delete(`https://backend-book-store-app.onrender.com/books/${bookId}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
      
